@@ -1,0 +1,84 @@
+{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+}
+
+header{
+	background-image: url(../2.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+
+ul{
+	/*float: right;*/
+	list-style-type: none;
+}
+ul li{
+	display: inline-block;
+	margin-top: 25px;			/* move menu items away from border*/
+}
+ul li a{
+	text-decoration: none;
+	color: #fff;				/* #fff white*/
+	padding: 5px 20px;
+	border: 1px solid #fff;			/* swap #fff for 'transparent' to remove border*/
+	transition: 0.5s ease;			/* fade to hover colour*/
+}
+ul li a:hover{					/* change colour of menu item with when hovering cursor*/
+	background-color: #fff;
+	color: #000;
+}
+
+ul li.active a{
+	background-color: #fff;
+	color: #000;
+}
+
+.logo img{
+	position: absolute;			/*place logo in bottom right*/
+	right: 0px;
+	bottom: 0px;
+	width: 100px;
+	height: auto;				/* float: right ; width: 150px; height: auto;*/
+}
+
+.main{
+	max-width: 1200px;
+	margin: auto;
+}
+
+.title{
+    position: absolute;
+    top: 50%;  
+    left: 50%; 
+    transform: translate(-50%, -50%);
+}
+.title h1{
+	color: #fff;
+	font-size: 70px;
+}
+.button{
+    position: absolute;
+    top: 60%;  
+    left: 50%; 
+    transform: translate(-50%, -50%);
+}
+.btn{
+	border: 5px solid #fff;
+	padding: 10px 30px;
+	color: #fff;
+	text-decoration: none;
+	transition: 0.5s;
+	font-size: 20px;
+}
+
+.btn:hover{					/* change colour of menu item with when hovering cursor*/
+	background-color: #fff;
+	color: #000;
+}
+.header{
+width: 100%	;
+}
